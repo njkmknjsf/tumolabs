@@ -1,0 +1,36 @@
+def main():
+    person_name = input("Person's name: ")
+    adjective = input("Adjective: ")
+    color = input("Color: ")
+    animal = input("Animal: ")
+    place = input("Place: ")
+    adjective2 = input("Second adjective: ")
+    magical_creature_plural = input("Magical creature(plural): ")
+    adjective3 = input("Third adjective: ")
+    magical_creature_plural2 = input("Second magical creature(plural): ")
+    room_in_a_house = input("Room in house: ")
+    noun = input("Noun: ")
+    noun2 = input("Second noun:")
+    noun3_plural = input("Third noun: ")
+    adjective4 = input("Fourth adjective: ")
+    noun4_plural = input("Fourth noun(plural): ")
+    number = input("Number: ")
+    measure_of_time = input("Measure of time: ")
+    verb_ending_with_end = input('Verb which ends with "ing": ')
+    adjective5 = input("Fifth adjective: ")
+    noun5 = input("Fifth noun: ")
+    text = '''
+    Dear {}, I am writing to you from a {} castle in an enchanted forest.
+    I found myself here one day after going for a ride on a {} {} in the {}.
+    There are {} {} and {} {} here! In the {} there is a pool full of {}.
+    I fall asleep each night on a {} of {} and dream of {} {}.
+    It feels as though I have lived here for {} {}.
+    I hope one day you can visit, although the only way to get here now is {} on a {}!!
+    '''.format(person_name, adjective, color, animal, place, adjective2, magical_creature_plural,
+               adjective3, magical_creature_plural2, room_in_a_house, noun,
+               noun2, noun3_plural, adjective4, noun4_plural, number, measure_of_time, verb_ending_with_end, adjective5, noun5)
+
+    print(text)
+
+if __name__ == '__main__':
+    main()
